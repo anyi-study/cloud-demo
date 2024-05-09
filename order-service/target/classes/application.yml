@@ -14,6 +14,7 @@ spring:
       discovery:
         cluster-name: HZ #集群名称 HZ 杭州
         namespace: 45e347b7-3155-416a-9e99-105a17fe68b3 # 命名空间，填ID
+        ephemeral: false #是否是临时实例
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
